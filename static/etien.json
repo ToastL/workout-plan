@@ -1,0 +1,41 @@
+{
+    "days": [
+        "chest - back",
+        "legs",
+        "rest",
+        "rest",
+        "rest",
+        "rest",
+        "delts - arms",
+        "legs",
+        "rest",
+        "rest",
+        "rest",
+        "rest"
+    ],
+    "workouts": {
+        "0": [
+            "peck deck 6-10 reps -superset",
+            "incline press 1-3 reps",
+            "close grip pulldown 6-10 reps",
+            "deadlift 5-8 reps"
+        ],
+        "1": [
+            "leg extensions 8-15 reps -superset",
+            "leg press 8-15 reps",
+            "calf raise 12-20 reps"
+        ],
+        "6": [
+            "lateral raise 6-10 reps",
+            "bent over raise 6-10 reps",
+            "barbell curl 6-10 reps",
+            "tricep extensions 6-10 reps -superset",
+            "dips 3-5 reps"
+        ],
+        "7": [
+            "leg extensions 1 rep static hold -superset",
+            "squats 8-15 reps",
+            "calf raise 12-20 reps"
+        ]
+    }
+}
