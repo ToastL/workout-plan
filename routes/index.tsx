@@ -24,14 +24,14 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Fresh App</title>
+        <title>Workout plan</title>
         <link rel="stylesheet" href={asset("styles.css")} />
       </Head>
       <div className={"main " + currClass}>
         <div className="container mainContainer">
           <h1>{today}</h1>
           {todaysWorkout.length != 0 &&
-            <li>{planning}</li>
+            <ul>{planning}</ul>
           }
         </div>
         <div className="container">
