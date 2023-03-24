@@ -7,7 +7,7 @@ export default function Home() {
   const yearsInDays = (date.getFullYear()-2000)*365
   const days = Math.ceil((date - new Date(date.getFullYear(),0,1))/ 86400000)
 
-  const daysSince2000 = yearsInDays+days+10
+  const daysSince2000 = yearsInDays+days+11
 
   const today = plan.days[daysSince2000 % plan.days.length]
   const tomorrow = plan.days[(daysSince2000+1) % plan.days.length]
