@@ -1,5 +1,5 @@
-import { asset, Head } from "$fresh/runtime.ts";
-import plan from "../static/etien.json" assert { type: "json" };
+import { asset, Head } from "$fresh/runtime.ts"
+import plan from "../static/etien.json" assert { type: "json" }
 
 export default function Home() {
   const date = new Date()
@@ -19,7 +19,7 @@ export default function Home() {
 
   todaysWorkout.forEach((workout: string) => {
     planning.push(<li>{workout}</li>)
-  });
+  })
 
   return (
     <>
