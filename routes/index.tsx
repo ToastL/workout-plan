@@ -4,6 +4,8 @@ import plan from "../static/etien.json" assert { type: "json" }
 export default function Home() {
   const date = new Date()
 
+  date.getUTCMilliseconds()
+  date.getMilliseconds()
   const yearsInDays = (date.getFullYear()-2000)*365
   const days = Math.ceil((date - new Date(date.getFullYear(),0,1))/ 86400000)
 
