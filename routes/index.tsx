@@ -10,7 +10,7 @@ export default function Home() {
   const daysSince2000 = yearsInDays+days
 
   const today = plan.days[daysSince2000 % plan.days.length]
-  const tomorrow = plan.days[(daysSince2000+1) % plan.days.length]
+  const tomorrow = plan.days[(daysSince2000+2) % plan.days.length]
   const todaysWorkout = (today != "rest") ? plan.workouts[daysSince2000 % plan.days.length] : []
 
   const currClass = (today == "rest") ? "wrong" : "correct"
